@@ -1,18 +1,16 @@
 {
   "name": "notedly-api",
   "version": "1.0.0",
-  "description": "API code examples for JavaScript Everywhere by Adam Scott, published by O'Reilly Media",
+  "description": "Notedly is a taking note api building with nodeJS && Graphql Api",
   "main": "src/index.js",
   "scripts": {
     "start": "nodemon src/index.js",
     "dev": "nodemon src/index.js",
-    "final": "nodemon final/index.js",
-    "seed": "node final/util/seed/index.js",
     "lint": "eslint \"src/**/*.js\""
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:javascripteverywhere/api.git"
+    "url": "git@github.com:joseldoc/notedly.git"
   },
   "nodemonConfig": {
     "ignore": [
@@ -20,7 +18,7 @@
     ]
   },
   "keywords": [],
-  "author": "Adam Scott",
+  "author": "Josel NKOMBO",
   "license": "MIT",
   "dependencies": {
     "apollo-server-express": "2.4.0",
